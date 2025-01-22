@@ -9,6 +9,7 @@ function Home() {
         <img className="home__image" src="/images/banner.png" alt="banner" />
         <div className="home__row">
           <Product
+            id={123665}
             title="the watch"
             price={26.85}
             image="https://beautystore.tn/23657-large_default/solde-kit-multi--kit-multi-midi-glow-eponge-.jpg"

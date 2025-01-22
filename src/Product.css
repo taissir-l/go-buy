@@ -28,8 +28,9 @@
   border: 1px solid;
   margin-top: 10px;
   border-color: #c27779;
-  color: #181818;
+  color: white;
   font-weight: 700;
+  transition: all 0.5s;
   background: rgb(170, 49, 62);
   background: linear-gradient(
     71deg,
@@ -47,4 +48,19 @@
 .product__info {
   height: 100 px;
   margin-bottom: 15px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: rgb(228, 228, 228);
+  border-radius: 3px;
+  color: rgba(74, 8, 8, 0.911);
+  opacity: 7;
+  transition: all 0.01s;
 }
