@@ -12,6 +12,7 @@ import Login from "./Login";
 import { useEffect } from "react";
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
+import Payment from "./Payment";
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -50,7 +51,7 @@ function AppContent() {
   const location = useLocation();
 
   // Define paths where the Header should be displayed
-  const showHeader = ["/", "/checkout"].includes(location.pathname);
+  const showHeader = ["/", "/checkout", "/payment"].includes(location.pathname);
 
   return (
     <div className="app">
@@ -58,6 +59,7 @@ function AppContent() {
       <Routes>
         <Route path="/Login" element={<Login />} />
         <Route path="/checkout" element={<Checkout />} />
+        <Route path="/payment" element={<Payment />} />
         <Route path="/" element={<Home />} />
         <Route path="*" element={<div> 💔Page Not Found</div>} />
       </Routes>
