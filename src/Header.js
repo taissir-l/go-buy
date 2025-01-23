@@ -37,7 +37,7 @@ function Header() {
         </Link>
         <div className="header__option">
           <span className="header__optionOne">dfffdd</span>
-          <span className="header__optionTwo">ddd</span>
+          <span className="header__optionTwo">dddddd</span>
         </div>
         <div className="header__option">
           <span className="header__optionOne">ddfffdd</span>
