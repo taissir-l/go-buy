@@ -10,6 +10,7 @@
   border-bottom: 1px solid lightgray;
 }
 
+
 .payment__container > h1 a {
   text-decoration: none;
 }
@@ -29,4 +30,19 @@
 .payment__items,
 .payment__details {
   flex: 0.8;
+}
+
+.payment__container h1 {
+  color: #36302f;
+  font-weight: 700;
+}
+
+
+.custom-link {
+  color: rgb(227, 177, 177);
+  text-decoration: none; 
+}
+
+.custom-link:hover {
+  color: white; 
 }
