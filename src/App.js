@@ -57,13 +57,13 @@ function AppContent() {
   const location = useLocation();
 
   // Define paths where the Header should be displayed
-  const showHeader = ["/", "/checkout", "/payment"].includes(location.pathname);
+  const showHeader = ["/", "/checkout", "/payment", "/orders"].includes(location.pathname);
 
   return (
     <div className="app">
       {showHeader && <Header />}
       <Routes>
-        <Route path="/Orders" element={<Orders />} />
+        <Route path="/orders" element={<Orders />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route

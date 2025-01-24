@@ -10,7 +10,7 @@ admin.initializeApp();
 // API
 
 // App config
-const app = express(); // Fixed typo "cont" to "const"
+const app = express(); 
 
 // Middleware
 app.use(cors({ origin: true }));
@@ -19,7 +19,7 @@ app.use(express.json());
 // API routes
 app.get("/", (request, response) => response.status(200).send("Hello, World!"));
 
-app.post("/payments/create", async (request, response) => {  // Fixed typo here
+app.post("/payments/create", async (request, response) => { 
     const total = request.query.total;
 
     console.log("Payment request received for this amount >>> ", total);
@@ -28,6 +28,8 @@ app.post("/payments/create", async (request, response) => {  // Fixed typo here
         amount: total, // subunits of the currency
         currency: "usd",
     });
+
+    console.log("Payment intent created >>> ", paymentIntent.id);
 
     // OK - Created
     response.status(201).send({

@@ -4373,3 +4373,485 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 [debug] [2025-01-24T21:00:12.636Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
 [debug] [2025-01-24T21:00:12.636Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
 [debug] [2025-01-24T21:00:12.637Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-01-24T21:34:31.585Z] [work-queue] {"queuedWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:34:31.573Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-01-24T21:34:31.797Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:34:31.573Z"],"workRunningCount":1}
+[debug] [2025-01-24T21:34:31.799Z] Accepted request POST /buy-and-go-efb48/us-central1/api/payments/create?total=2685 --> us-central1-api
+[debug] [2025-01-24T21:34:36.193Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-01-24T21:34:36.233Z] [functions] Got req.url=/buy-and-go-efb48/us-central1/api/payments/create?total=2685, mapping to path=/payments/create?total=2685 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/buy-and-go-efb48/us-central1/api/payments/create?total=2685, mapping to path=/payments/create?total=2685"}}
+[debug] [2025-01-24T21:34:36.239Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2025-01-24T21:34:36.300Z] [worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: BUSY"}}
+[debug] [2025-01-24T21:34:36.373Z] [work-queue] {"queuedWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:34:36.373Z"],"queueLength":1,"runningWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:34:31.573Z"],"workRunningCount":1}
+[debug] [2025-01-24T21:34:36.373Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:34:31.573Z","/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:34:36.373Z"],"workRunningCount":2}
+[debug] [2025-01-24T21:34:36.373Z] Accepted request POST /buy-and-go-efb48/us-central1/api/payments/create?total=2685 --> us-central1-api
+[debug] [2025-01-24T21:34:36.377Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-01-24T21:34:36.377Z] [functions] Got req.url=/buy-and-go-efb48/us-central1/api/payments/create?total=2685, mapping to path=/payments/create?total=2685 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/buy-and-go-efb48/us-central1/api/payments/create?total=2685, mapping to path=/payments/create?total=2685"}}
+[debug] [2025-01-24T21:34:36.377Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2025-01-24T21:34:36.382Z] [worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: BUSY"}}
+[info] >  Payment request received for this amount >>>  2685 {"user":"Payment request received for this amount >>>  2685","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request received for this amount >>>  2685"}}
+[info] >  Payment request received for this amount >>>  2685 {"user":"Payment request received for this amount >>>  2685","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request received for this amount >>>  2685"}}
+[debug] [2025-01-24T21:34:38.951Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 2568.9989ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 2568.9989ms"}}
+[debug] [2025-01-24T21:34:38.952Z] [worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: IDLE"}}
+[debug] [2025-01-24T21:34:38.952Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-01-24T21:34:38.952Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-01-24T21:34:38.952Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:34:31.573Z"],"workRunningCount":1}
+[debug] [2025-01-24T21:34:38.954Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 2654.5553ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 2654.5553ms"}}
+[debug] [2025-01-24T21:34:38.955Z] [worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: IDLE"}}
+[debug] [2025-01-24T21:34:38.955Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-01-24T21:34:38.956Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-01-24T21:34:38.956Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-01-24T21:36:47.500Z] [work-queue] {"queuedWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:36:47.499Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-01-24T21:36:47.532Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:36:47.499Z"],"workRunningCount":1}
+[debug] [2025-01-24T21:36:47.532Z] Accepted request POST /buy-and-go-efb48/us-central1/api/payments/create?total=2685 --> us-central1-api
+[debug] [2025-01-24T21:36:47.797Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-01-24T21:36:47.797Z] [functions] Got req.url=/buy-and-go-efb48/us-central1/api/payments/create?total=2685, mapping to path=/payments/create?total=2685 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/buy-and-go-efb48/us-central1/api/payments/create?total=2685, mapping to path=/payments/create?total=2685"}}
+[debug] [2025-01-24T21:36:47.797Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2025-01-24T21:36:47.798Z] [worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: BUSY"}}
+[debug] [2025-01-24T21:36:47.836Z] [work-queue] {"queuedWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:36:47.836Z"],"queueLength":1,"runningWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:36:47.499Z"],"workRunningCount":1}
+[debug] [2025-01-24T21:36:47.836Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:36:47.499Z","/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:36:47.836Z"],"workRunningCount":2}
+[debug] [2025-01-24T21:36:47.836Z] Accepted request POST /buy-and-go-efb48/us-central1/api/payments/create?total=2685 --> us-central1-api
+[debug] [2025-01-24T21:36:47.916Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-01-24T21:36:47.965Z] [functions] Got req.url=/buy-and-go-efb48/us-central1/api/payments/create?total=2685, mapping to path=/payments/create?total=2685 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/buy-and-go-efb48/us-central1/api/payments/create?total=2685, mapping to path=/payments/create?total=2685"}}
+[debug] [2025-01-24T21:36:48.083Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2025-01-24T21:36:48.316Z] [worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: BUSY"}}
+[info] >  Payment request received for this amount >>>  2685 {"user":"Payment request received for this amount >>>  2685","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request received for this amount >>>  2685"}}
+[info] >  Payment request received for this amount >>>  2685 {"user":"Payment request received for this amount >>>  2685","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request received for this amount >>>  2685"}}
+[debug] [2025-01-24T21:36:49.108Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 1310.1647ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 1310.1647ms"}}
+[debug] [2025-01-24T21:36:49.110Z] [worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: IDLE"}}
+[debug] [2025-01-24T21:36:49.110Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-01-24T21:36:49.110Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-01-24T21:36:49.111Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:36:47.836Z"],"workRunningCount":1}
+[debug] [2025-01-24T21:36:49.488Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 1172.8890000000001ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 1172.8890000000001ms"}}
+[debug] [2025-01-24T21:36:49.490Z] [worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: IDLE"}}
+[debug] [2025-01-24T21:36:49.490Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-01-24T21:36:49.490Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-01-24T21:36:49.490Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-01-24T21:37:44.535Z] [work-queue] {"queuedWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:37:44.535Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-01-24T21:37:44.579Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:37:44.535Z"],"workRunningCount":1}
+[debug] [2025-01-24T21:37:44.579Z] Accepted request POST /buy-and-go-efb48/us-central1/api/payments/create?total=5370 --> us-central1-api
+[debug] [2025-01-24T21:37:44.634Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-01-24T21:37:44.636Z] [functions] Got req.url=/buy-and-go-efb48/us-central1/api/payments/create?total=5370, mapping to path=/payments/create?total=5370 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/buy-and-go-efb48/us-central1/api/payments/create?total=5370, mapping to path=/payments/create?total=5370"}}
+[debug] [2025-01-24T21:37:44.728Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2025-01-24T21:37:44.729Z] [worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: BUSY"}}
+[debug] [2025-01-24T21:37:44.730Z] [work-queue] {"queuedWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:37:44.730Z"],"queueLength":1,"runningWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:37:44.535Z"],"workRunningCount":1}
+[debug] [2025-01-24T21:37:44.730Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:37:44.535Z","/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:37:44.730Z"],"workRunningCount":2}
+[debug] [2025-01-24T21:37:44.730Z] Accepted request POST /buy-and-go-efb48/us-central1/api/payments/create?total=5370 --> us-central1-api
+[debug] [2025-01-24T21:37:45.068Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-01-24T21:37:45.068Z] [functions] Got req.url=/buy-and-go-efb48/us-central1/api/payments/create?total=5370, mapping to path=/payments/create?total=5370 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/buy-and-go-efb48/us-central1/api/payments/create?total=5370, mapping to path=/payments/create?total=5370"}}
+[debug] [2025-01-24T21:37:45.068Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2025-01-24T21:37:45.069Z] [worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: BUSY"}}
+[info] >  Payment request received for this amount >>>  5370 {"user":"Payment request received for this amount >>>  5370","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request received for this amount >>>  5370"}}
+[info] >  Payment request received for this amount >>>  5370 {"user":"Payment request received for this amount >>>  5370","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request received for this amount >>>  5370"}}
+[debug] [2025-01-24T21:37:45.907Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 838.576ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 838.576ms"}}
+[debug] [2025-01-24T21:37:45.909Z] [worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: IDLE"}}
+[debug] [2025-01-24T21:37:45.910Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-01-24T21:37:45.910Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-01-24T21:37:45.910Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:37:44.535Z"],"workRunningCount":1}
+[debug] [2025-01-24T21:37:45.943Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 1214.3234ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 1214.3234ms"}}
+[debug] [2025-01-24T21:37:45.944Z] [worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: IDLE"}}
+[debug] [2025-01-24T21:37:45.944Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-01-24T21:37:45.945Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-01-24T21:37:45.945Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-01-24T21:46:40.328Z] File C:\Users\ASUS\Desktop\final-project\go-buy\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions\\index.js changed, reloading triggers"}}
+[debug] [2025-01-24T21:46:41.050Z] File C:\Users\ASUS\Desktop\final-project\go-buy\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions\\index.js changed, reloading triggers"}}
+[debug] [2025-01-24T21:46:44.173Z] Validating nodejs source
+[debug] [2025-01-24T21:46:56.920Z] checkFunctionsSDKVersion was unable to fetch information from NPM Error: spawnSync C:\Windows\system32\cmd.exe ETIMEDOUT
+    at Object.spawnSync (node:internal/child_process:1123:20)
+    at Object.spawnSync (node:child_process:877:24)
+    at Function.spawnSync [as sync] (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\index.js:26:23)
+    at Object.getLatestSDKVersion (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:54:25)
+    at Object.checkFunctionsSDKVersion (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:74:32)
+    at Delegate.validate (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\index.js:86:20)
+    at FunctionsEmulator.discoverTriggers (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:331:35)
+    at async FunctionsEmulator.loadTriggers (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:371:34)
+[debug] [2025-01-24T21:46:57.303Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "stripe": "^17.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2025-01-24T21:46:57.325Z] Building nodejs source
+[debug] [2025-01-24T21:46:57.408Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\final-project\go-buy\functions\node_modules
+[warn] !  functions: Your requested "node" version "22" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2025-01-24T21:46:57.772Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-01-24T21:46:58.404Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\final-project\go-buy\functions\node_modules\.bin\firebase-functions'
+[debug] [2025-01-24T21:46:58.808Z] File C:\Users\ASUS\Desktop\final-project\go-buy\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions\\index.js changed, reloading triggers"}}
+[debug] [2025-01-24T21:46:58.986Z] File C:\Users\ASUS\Desktop\final-project\go-buy\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions\\index.js changed, reloading triggers"}}
+[debug] [2025-01-24T21:47:00.309Z] Validating nodejs source
+[debug] [2025-01-24T21:47:10.356Z] checkFunctionsSDKVersion was unable to fetch information from NPM Error: spawnSync C:\Windows\system32\cmd.exe ETIMEDOUT
+    at Object.spawnSync (node:internal/child_process:1123:20)
+    at Object.spawnSync (node:child_process:877:24)
+    at Function.spawnSync [as sync] (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\index.js:26:23)
+    at Object.getLatestSDKVersion (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:54:25)
+    at Object.checkFunctionsSDKVersion (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:74:32)
+    at Delegate.validate (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\index.js:86:20)
+    at FunctionsEmulator.discoverTriggers (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:331:35)
+    at async FunctionsEmulator.loadTriggers (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:371:34)
+[debug] [2025-01-24T21:47:10.357Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "stripe": "^17.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2025-01-24T21:47:10.357Z] Building nodejs source
+[debug] [2025-01-24T21:47:10.357Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\final-project\go-buy\functions\node_modules
+[warn] !  functions: Your requested "node" version "22" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2025-01-24T21:47:10.553Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-01-24T21:47:10.647Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\final-project\go-buy\functions\node_modules\.bin\firebase-functions'
+[debug] [2025-01-24T21:47:10.781Z] [work-queue] {"queuedWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:47:10.781Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-01-24T21:47:10.781Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:47:10.781Z"],"workRunningCount":1}
+[debug] [2025-01-24T21:47:10.782Z] Accepted request POST /buy-and-go-efb48/us-central1/api/payments/create?total=5370 --> us-central1-api
+[debug] [2025-01-24T21:47:11.099Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-01-24T21:47:11.100Z] [functions] Got req.url=/buy-and-go-efb48/us-central1/api/payments/create?total=5370, mapping to path=/payments/create?total=5370 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/buy-and-go-efb48/us-central1/api/payments/create?total=5370, mapping to path=/payments/create?total=5370"}}
+[debug] [2025-01-24T21:47:11.100Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2025-01-24T21:47:11.103Z] [worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: BUSY"}}
+[debug] [2025-01-24T21:47:11.104Z] [work-queue] {"queuedWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:47:11.104Z"],"queueLength":1,"runningWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:47:10.781Z"],"workRunningCount":1}
+[debug] [2025-01-24T21:47:11.105Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:47:10.781Z","/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:47:11.104Z"],"workRunningCount":2}
+[debug] [2025-01-24T21:47:11.105Z] Accepted request POST /buy-and-go-efb48/us-central1/api/payments/create?total=5370 --> us-central1-api
+[debug] [2025-01-24T21:47:11.107Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-01-24T21:47:11.108Z] [functions] Got req.url=/buy-and-go-efb48/us-central1/api/payments/create?total=5370, mapping to path=/payments/create?total=5370 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/buy-and-go-efb48/us-central1/api/payments/create?total=5370, mapping to path=/payments/create?total=5370"}}
+[debug] [2025-01-24T21:47:11.108Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2025-01-24T21:47:11.109Z] [worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: BUSY"}}
+[debug] [2025-01-24T21:47:11.269Z] Failed to call quitquitquit. This often means the server failed to start request to http://localhost:8596/__/quitquitquit failed, reason:  {"message":"request to http://localhost:8596/__/quitquitquit failed, reason: ","type":"system","errno":"ECONNREFUSED","code":"ECONNREFUSED"}
+[info] >  Payment request received for this amount >>>  5370 {"user":"Payment request received for this amount >>>  5370","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request received for this amount >>>  5370"}}
+[info] >  Payment request received for this amount >>>  5370 {"user":"Payment request received for this amount >>>  5370","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request received for this amount >>>  5370"}}
+[debug] [2025-01-24T21:47:14.796Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 3693.3441000000003ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 3693.3441000000003ms"}}
+[debug] [2025-01-24T21:47:15.127Z] [worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: IDLE"}}
+[debug] [2025-01-24T21:47:15.127Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-01-24T21:47:15.127Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-01-24T21:47:15.127Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:47:11.104Z"],"workRunningCount":1}
+[debug] [2025-01-24T21:47:17.153Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 6044.8029ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 6044.8029ms"}}
+[debug] [2025-01-24T21:47:17.156Z] [worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: IDLE"}}
+[debug] [2025-01-24T21:47:17.157Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-01-24T21:47:17.157Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-01-24T21:47:17.157Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[info] Serving at port 8596
+
+[info] Serving at port 8097
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification"}}
+[error] !!  functions: Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification"}}
+[debug] [2025-01-24T21:52:31.615Z] [work-queue] {"queuedWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:52:31.614Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-01-24T21:52:31.615Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:52:31.614Z"],"workRunningCount":1}
+[debug] [2025-01-24T21:52:31.615Z] Accepted request POST /buy-and-go-efb48/us-central1/api/payments/create?total=2685 --> us-central1-api
+[debug] [2025-01-24T21:52:31.622Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-01-24T21:52:31.622Z] [functions] Got req.url=/buy-and-go-efb48/us-central1/api/payments/create?total=2685, mapping to path=/payments/create?total=2685 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/buy-and-go-efb48/us-central1/api/payments/create?total=2685, mapping to path=/payments/create?total=2685"}}
+[debug] [2025-01-24T21:52:31.624Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2025-01-24T21:52:31.632Z] [worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: BUSY"}}
+[debug] [2025-01-24T21:52:31.633Z] [work-queue] {"queuedWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:52:31.633Z"],"queueLength":1,"runningWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:52:31.614Z"],"workRunningCount":1}
+[debug] [2025-01-24T21:52:31.634Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:52:31.614Z","/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:52:31.633Z"],"workRunningCount":2}
+[debug] [2025-01-24T21:52:31.634Z] Accepted request POST /buy-and-go-efb48/us-central1/api/payments/create?total=2685 --> us-central1-api
+[debug] [2025-01-24T21:52:31.635Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-01-24T21:52:31.636Z] [functions] Got req.url=/buy-and-go-efb48/us-central1/api/payments/create?total=2685, mapping to path=/payments/create?total=2685 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/buy-and-go-efb48/us-central1/api/payments/create?total=2685, mapping to path=/payments/create?total=2685"}}
+[debug] [2025-01-24T21:52:31.636Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2025-01-24T21:52:31.645Z] [worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: BUSY"}}
+[info] >  Payment request received for this amount >>>  2685 {"user":"Payment request received for this amount >>>  2685","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request received for this amount >>>  2685"}}
+[info] >  Payment request received for this amount >>>  2685 {"user":"Payment request received for this amount >>>  2685","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request received for this amount >>>  2685"}}
+[debug] [2025-01-24T21:52:32.503Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 858.3398ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 858.3398ms"}}
+[debug] [2025-01-24T21:52:32.506Z] [worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: IDLE"}}
+[debug] [2025-01-24T21:52:32.506Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-01-24T21:52:32.506Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-01-24T21:52:32.506Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T21:52:31.614Z"],"workRunningCount":1}
+[debug] [2025-01-24T21:52:32.507Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 875.7182ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 875.7182ms"}}
+[debug] [2025-01-24T21:52:32.508Z] [worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: IDLE"}}
+[debug] [2025-01-24T21:52:32.509Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-01-24T21:52:32.509Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-01-24T21:52:32.509Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-01-24T21:53:11.515Z] File C:\Users\ASUS\Desktop\final-project\go-buy\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions\\index.js changed, reloading triggers"}}
+[debug] [2025-01-24T21:53:12.526Z] Validating nodejs source
+[debug] [2025-01-24T21:53:14.875Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "stripe": "^17.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2025-01-24T21:53:14.875Z] Building nodejs source
+[debug] [2025-01-24T21:53:14.875Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\final-project\go-buy\functions\node_modules
+[warn] !  functions: Your requested "node" version "22" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2025-01-24T21:53:14.877Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-01-24T21:53:14.886Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\final-project\go-buy\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8593
+
+[debug] [2025-01-24T21:53:16.534Z] Got response from /__/functions.yaml {"endpoints":{"api":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[debug] [2025-01-24T21:53:20.688Z] defaultcredentials: writing to file C:\Users\ASUS\AppData\Roaming\firebase\taissir_lassoued149_gmail.com_application_default_credentials.json
+[debug] [2025-01-24T21:53:20.733Z] Setting GAC to C:\Users\ASUS\AppData\Roaming\firebase\taissir_lassoued149_gmail.com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\ASUS\\AppData\\Roaming\\firebase\\taissir_lassoued149_gmail.com_application_default_credentials.json"}}
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2025-01-24T21:53:20.822Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2025-01-24T21:53:20.822Z] [worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: FINISHING {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: FINISHING"}}
+[debug] [2025-01-24T21:53:20.822Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2025-01-24T21:53:20.822Z] [worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: FINISHING {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: FINISHING"}}
+[debug] [2025-01-24T21:53:21.146Z] [worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: exited"}}
+[debug] [2025-01-24T21:53:21.146Z] [worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-01855928-4e9e-4957-84e0-29cce7b21dfa]: FINISHED"}}
+[debug] [2025-01-24T21:53:21.151Z] [worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: exited"}}
+[debug] [2025-01-24T21:53:21.151Z] [worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-34beba9c-19d3-4963-95fe-18b9c6bb7dbe]: FINISHED"}}
+[debug] [2025-01-24T22:01:41.054Z] [work-queue] {"queuedWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T22:01:41.054Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-01-24T22:01:41.054Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T22:01:41.054Z"],"workRunningCount":1}
+[debug] [2025-01-24T22:01:41.054Z] Accepted request POST /buy-and-go-efb48/us-central1/api/payments/create?total=2685 --> us-central1-api
+[debug] [2025-01-24T22:01:41.061Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-01-24T22:01:41.061Z] [functions] Got req.url=/buy-and-go-efb48/us-central1/api/payments/create?total=2685, mapping to path=/payments/create?total=2685 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/buy-and-go-efb48/us-central1/api/payments/create?total=2685, mapping to path=/payments/create?total=2685"}}
+[debug] [2025-01-24T22:01:41.062Z] [worker-pool] Cleaned up workers for us-central1-api: 18 --> 16 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 18 --> 16"}}
+[debug] [2025-01-24T22:01:41.080Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2025-01-24T22:01:41.080Z] [worker-pool] Adding worker with key us-central1-api, total=17 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=17"}}
+[debug] [2025-01-24T22:01:41.082Z] [work-queue] {"queuedWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T22:01:41.082Z"],"queueLength":1,"runningWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T22:01:41.054Z"],"workRunningCount":1}
+[debug] [2025-01-24T22:01:41.083Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T22:01:41.054Z","/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T22:01:41.082Z"],"workRunningCount":2}
+[debug] [2025-01-24T22:01:41.083Z] Accepted request POST /buy-and-go-efb48/us-central1/api/payments/create?total=2685 --> us-central1-api
+[debug] [2025-01-24T22:01:41.090Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-01-24T22:01:41.091Z] [functions] Got req.url=/buy-and-go-efb48/us-central1/api/payments/create?total=2685, mapping to path=/payments/create?total=2685 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/buy-and-go-efb48/us-central1/api/payments/create?total=2685, mapping to path=/payments/create?total=2685"}}
+[debug] [2025-01-24T22:01:41.114Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2025-01-24T22:01:41.114Z] [worker-pool] Adding worker with key us-central1-api, total=18 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=18"}}
+[error] !!  functions: Failed to handle request for function us-central1-api {"metadata":{"emulator":{"name":"functions"},"message":"Failed to handle request for function us-central1-api"}}
+[error] !!  functions: Failed to start functions in C:\Users\ASUS\Desktop\final-project\go-buy\functions: FirebaseError: Failed to load function. {"metadata":{"emulator":{"name":"functions"},"message":"Failed to start functions in C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions: FirebaseError: Failed to load function."}}
+[debug] [2025-01-24T22:02:11.175Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/buy-and-go-efb48/us-central1/api/payments/create-2025-01-24T22:01:41.082Z"],"workRunningCount":1}
+[error] !!  functions: Failed to handle request for function us-central1-api {"metadata":{"emulator":{"name":"functions"},"message":"Failed to handle request for function us-central1-api"}}
+[error] !!  functions: Failed to start functions in C:\Users\ASUS\Desktop\final-project\go-buy\functions: FirebaseError: Failed to load function. {"metadata":{"emulator":{"name":"functions"},"message":"Failed to start functions in C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions: FirebaseError: Failed to load function."}}
+[debug] [2025-01-24T22:02:11.182Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-01-24T22:02:25.038Z] [runtime-status] [10816] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10816] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"C:\\\\Users\\\\ASUS\\\\Desktop\\\\final-project\\\\go-buy\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2025-01-24T22:02:25.038Z] [runtime-status] [18808] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18808] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"C:\\\\Users\\\\ASUS\\\\Desktop\\\\final-project\\\\go-buy\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2025-01-24T22:02:25.040Z] [runtime-status] [10816] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.2.0","resolution":"C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10816] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.2.0\",\"resolution\":\"C:\\\\Users\\\\ASUS\\\\Desktop\\\\final-project\\\\go-buy\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-01-24T22:02:25.041Z] [runtime-status] [10816] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10816] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2025-01-24T22:02:25.042Z] [runtime-status] [18808] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.2.0","resolution":"C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18808] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.2.0\",\"resolution\":\"C:\\\\Users\\\\ASUS\\\\Desktop\\\\final-project\\\\go-buy\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-01-24T22:02:25.042Z] [runtime-status] [18808] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18808] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2025-01-24T22:02:25.043Z] [runtime-status] [10816] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.2.0","resolution":"C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10816] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.2.0\",\"resolution\":\"C:\\\\Users\\\\ASUS\\\\Desktop\\\\final-project\\\\go-buy\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-01-24T22:02:25.045Z] [runtime-status] [18808] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.2.0","resolution":"C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18808] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.2.0\",\"resolution\":\"C:\\\\Users\\\\ASUS\\\\Desktop\\\\final-project\\\\go-buy\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-01-24T22:02:26.035Z] [runtime-status] [18808] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18808] Checked functions.config() {\"config\":{}}"}}
+[debug] [2025-01-24T22:02:26.035Z] [runtime-status] [18808] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"6.2.0","resolution":"C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18808] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"6.2.0\",\"resolution\":\"C:\\\\Users\\\\ASUS\\\\Desktop\\\\final-project\\\\go-buy\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}}"}}
+[debug] [2025-01-24T22:02:26.036Z] [runtime-status] [18808] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.2.0","resolution":"C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18808] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.2.0\",\"resolution\":\"C:\\\\Users\\\\ASUS\\\\Desktop\\\\final-project\\\\go-buy\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-01-24T22:02:26.111Z] [runtime-status] [10816] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10816] Checked functions.config() {\"config\":{}}"}}
+[debug] [2025-01-24T22:02:26.112Z] [runtime-status] [10816] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"6.2.0","resolution":"C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10816] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"6.2.0\",\"resolution\":\"C:\\\\Users\\\\ASUS\\\\Desktop\\\\final-project\\\\go-buy\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}}"}}
+[debug] [2025-01-24T22:02:26.113Z] [runtime-status] [10816] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.2.0","resolution":"C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10816] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.2.0\",\"resolution\":\"C:\\\\Users\\\\ASUS\\\\Desktop\\\\final-project\\\\go-buy\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-01-24T22:02:26.256Z] [runtime-status] [10816] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10816] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"C:\\\\Users\\\\ASUS\\\\Desktop\\\\final-project\\\\go-buy\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2025-01-24T22:02:26.259Z] [runtime-status] [18808] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18808] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"C:\\\\Users\\\\ASUS\\\\Desktop\\\\final-project\\\\go-buy\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2025-01-24T22:02:26.263Z] [runtime-status] [18808] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.2.0","resolution":"C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18808] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.2.0\",\"resolution\":\"C:\\\\Users\\\\ASUS\\\\Desktop\\\\final-project\\\\go-buy\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-01-24T22:02:26.263Z] [runtime-status] [18808] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"12.7.0","resolution":"C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18808] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"C:\\\\Users\\\\ASUS\\\\Desktop\\\\final-project\\\\go-buy\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2025-01-24T22:02:26.276Z] [runtime-status] [10816] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.2.0","resolution":"C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10816] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.2.0\",\"resolution\":\"C:\\\\Users\\\\ASUS\\\\Desktop\\\\final-project\\\\go-buy\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
+[debug] [2025-01-24T22:02:26.276Z] [runtime-status] [10816] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"12.7.0","resolution":"C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10816] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"C:\\\\Users\\\\ASUS\\\\Desktop\\\\final-project\\\\go-buy\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2025-01-24T22:02:27.467Z] [runtime-status] [18808] initializeApp(DEFAULT) {"storageBucket":"buy-and-go-efb48.firebasestorage.app","projectId":"buy-and-go-efb48"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18808] initializeApp(DEFAULT) {\"storageBucket\":\"buy-and-go-efb48.firebasestorage.app\",\"projectId\":\"buy-and-go-efb48\"}"}}
+[debug] [2025-01-24T22:02:27.482Z] [runtime-status] [18808] Functions runtime initialized. {"cwd":"C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions","node_version":"20.18.2"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18808] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\ASUS\\\\Desktop\\\\final-project\\\\go-buy\\\\functions\",\"node_version\":\"20.18.2\"}"}}
+[debug] [2025-01-24T22:02:27.484Z] [runtime-status] [18808] Listening to port: \\?\pipe\fire_emu_3f8d8dfa4473a0d4 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18808] Listening to port: \\\\?\\pipe\\fire_emu_3f8d8dfa4473a0d4"}}
+[debug] [2025-01-24T22:02:27.488Z] [runtime-status] [10816] initializeApp(DEFAULT) {"storageBucket":"buy-and-go-efb48.firebasestorage.app","projectId":"buy-and-go-efb48"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10816] initializeApp(DEFAULT) {\"storageBucket\":\"buy-and-go-efb48.firebasestorage.app\",\"projectId\":\"buy-and-go-efb48\"}"}}
+[debug] [2025-01-24T22:02:27.499Z] [runtime-status] [10816] Functions runtime initialized. {"cwd":"C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions","node_version":"20.18.2"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10816] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\ASUS\\\\Desktop\\\\final-project\\\\go-buy\\\\functions\",\"node_version\":\"20.18.2\"}"}}
+[debug] [2025-01-24T22:02:27.499Z] [runtime-status] [10816] Listening to port: \\?\pipe\fire_emu_02a08b12dfa902ca {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [10816] Listening to port: \\\\?\\pipe\\fire_emu_02a08b12dfa902ca"}}
+[debug] [2025-01-24T23:04:06.600Z] File C:\Users\ASUS\Desktop\final-project\go-buy\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions\\index.js changed, reloading triggers"}}
+[debug] [2025-01-24T23:04:07.208Z] File C:\Users\ASUS\Desktop\final-project\go-buy\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions\\index.js changed, reloading triggers"}}
+[debug] [2025-01-24T23:04:10.332Z] Validating nodejs source
+[debug] [2025-01-24T23:04:35.409Z] checkFunctionsSDKVersion was unable to fetch information from NPM Error: spawnSync C:\Windows\system32\cmd.exe ETIMEDOUT
+    at Object.spawnSync (node:internal/child_process:1123:20)
+    at Object.spawnSync (node:child_process:877:24)
+    at Function.spawnSync [as sync] (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\index.js:26:23)
+    at Object.getLatestSDKVersion (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:54:25)
+    at Object.checkFunctionsSDKVersion (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:74:32)
+    at Delegate.validate (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\index.js:86:20)
+    at FunctionsEmulator.discoverTriggers (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:331:35)
+    at async FunctionsEmulator.loadTriggers (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:371:34)
+[debug] [2025-01-24T23:04:37.150Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "stripe": "^17.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2025-01-24T23:04:37.214Z] Building nodejs source
+[debug] [2025-01-24T23:04:37.214Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\final-project\go-buy\functions\node_modules
+[warn] !  functions: Your requested "node" version "22" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2025-01-24T23:04:39.451Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-01-24T23:04:44.586Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\final-project\go-buy\functions\node_modules\.bin\firebase-functions'
+[debug] [2025-01-24T23:04:47.620Z] File C:\Users\ASUS\Desktop\final-project\go-buy\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\final-project\\go-buy\\functions\\index.js changed, reloading triggers"}}
+[debug] [2025-01-24T23:04:49.783Z] Validating nodejs source
+[debug] [2025-01-24T23:05:00.007Z] checkFunctionsSDKVersion was unable to fetch information from NPM Error: spawnSync C:\Windows\system32\cmd.exe ETIMEDOUT
+    at Object.spawnSync (node:internal/child_process:1123:20)
+    at Object.spawnSync (node:child_process:877:24)
+    at Function.spawnSync [as sync] (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\index.js:26:23)
+    at Object.getLatestSDKVersion (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:54:25)
+    at Object.checkFunctionsSDKVersion (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:74:32)
+    at Delegate.validate (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\index.js:86:20)
+    at FunctionsEmulator.discoverTriggers (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:331:35)
+    at async FunctionsEmulator.loadTriggers (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:371:34)
+[debug] [2025-01-24T23:05:00.008Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "stripe": "^17.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2025-01-24T23:05:00.008Z] Building nodejs source
+[debug] [2025-01-24T23:05:00.008Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\final-project\go-buy\functions\node_modules
+[warn] !  functions: Your requested "node" version "22" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2025-01-24T23:05:00.768Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-01-24T23:05:00.779Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\final-project\go-buy\functions\node_modules\.bin\firebase-functions'
+[debug] [2025-01-24T23:05:01.766Z] Failed to call quitquitquit. This often means the server failed to start request to http://localhost:8062/__/quitquitquit failed, reason:  {"message":"request to http://localhost:8062/__/quitquitquit failed, reason: ","type":"system","errno":"ECONNREFUSED","code":"ECONNREFUSED"}
+[error] !!  functions: Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification"}}
+[debug] [2025-01-24T23:05:21.665Z] Failed to call quitquitquit. This often means the server failed to start request to http://localhost:8533/__/quitquitquit failed, reason:  {"message":"request to http://localhost:8533/__/quitquitquit failed, reason: ","type":"system","errno":"ECONNREFUSED","code":"ECONNREFUSED"}
+[error] !!  functions: Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification"}}
+[info] Serving at port 8533
+
+[info] Serving at port 8062
+
+[debug] [2025-01-24T23:06:46.440Z] [worker-us-central1-api-331eabd3-178f-4321-b7e3-18c568a2e7c9]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-331eabd3-178f-4321-b7e3-18c568a2e7c9]: exited"}}
+[debug] [2025-01-24T23:06:46.440Z] [worker-us-central1-api-331eabd3-178f-4321-b7e3-18c568a2e7c9]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-331eabd3-178f-4321-b7e3-18c568a2e7c9]: FINISHED"}}
+[debug] [2025-01-24T23:06:49.361Z] [worker-us-central1-api-0a1d2875-0bf5-4a18-926e-60e511a3ee98]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-0a1d2875-0bf5-4a18-926e-60e511a3ee98]: exited"}}
+[debug] [2025-01-24T23:06:49.361Z] [worker-us-central1-api-0a1d2875-0bf5-4a18-926e-60e511a3ee98]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-0a1d2875-0bf5-4a18-926e-60e511a3ee98]: FINISHED"}}
+[debug] [2025-01-24T23:07:08.390Z] [worker-us-central1-api-b66335d6-bf37-4c53-b5be-322a40013d33]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-b66335d6-bf37-4c53-b5be-322a40013d33]: exited"}}
+[debug] [2025-01-24T23:07:08.391Z] [worker-us-central1-api-b66335d6-bf37-4c53-b5be-322a40013d33]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-b66335d6-bf37-4c53-b5be-322a40013d33]: FINISHED"}}
+[debug] [2025-01-24T23:07:09.068Z] [worker-us-central1-api-bf2d97f1-b948-454c-82f9-8f38f7277605]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-bf2d97f1-b948-454c-82f9-8f38f7277605]: exited"}}
+[debug] [2025-01-24T23:07:09.069Z] [worker-us-central1-api-bf2d97f1-b948-454c-82f9-8f38f7277605]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-bf2d97f1-b948-454c-82f9-8f38f7277605]: FINISHED"}}
+[debug] [2025-01-24T23:07:09.545Z] [worker-us-central1-api-c45d28a0-1a31-4e0f-ae43-2cc3565f9bb6]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-c45d28a0-1a31-4e0f-ae43-2cc3565f9bb6]: exited"}}
+[debug] [2025-01-24T23:07:09.545Z] [worker-us-central1-api-c45d28a0-1a31-4e0f-ae43-2cc3565f9bb6]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-c45d28a0-1a31-4e0f-ae43-2cc3565f9bb6]: FINISHED"}}
+[debug] [2025-01-24T23:07:09.546Z] [worker-us-central1-api-62fabd61-acc5-4545-afb3-e21bf3300b1c]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-62fabd61-acc5-4545-afb3-e21bf3300b1c]: exited"}}
+[debug] [2025-01-24T23:07:09.546Z] [worker-us-central1-api-62fabd61-acc5-4545-afb3-e21bf3300b1c]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-62fabd61-acc5-4545-afb3-e21bf3300b1c]: FINISHED"}}
+[debug] [2025-01-24T23:07:09.666Z] [worker-us-central1-api-d63fc0d7-bfa3-41fd-9d2d-af128fda839f]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-d63fc0d7-bfa3-41fd-9d2d-af128fda839f]: exited"}}
+[debug] [2025-01-24T23:07:09.666Z] [worker-us-central1-api-d63fc0d7-bfa3-41fd-9d2d-af128fda839f]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-d63fc0d7-bfa3-41fd-9d2d-af128fda839f]: FINISHED"}}
+[debug] [2025-01-24T23:07:09.666Z] [worker-us-central1-api-94b82c8c-1ffb-4120-a305-889536639409]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-94b82c8c-1ffb-4120-a305-889536639409]: exited"}}
+[debug] [2025-01-24T23:07:09.666Z] [worker-us-central1-api-94b82c8c-1ffb-4120-a305-889536639409]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-94b82c8c-1ffb-4120-a305-889536639409]: FINISHED"}}
+[debug] [2025-01-24T23:07:09.667Z] [worker-us-central1-api-2e85908b-2268-4de6-8ea3-60d27f501158]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2e85908b-2268-4de6-8ea3-60d27f501158]: exited"}}
+[debug] [2025-01-24T23:07:09.667Z] [worker-us-central1-api-2e85908b-2268-4de6-8ea3-60d27f501158]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2e85908b-2268-4de6-8ea3-60d27f501158]: FINISHED"}}
+[debug] [2025-01-24T23:07:09.707Z] [worker-us-central1-api-4eaec163-c5de-4e63-8ebb-760ae916c43c]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-4eaec163-c5de-4e63-8ebb-760ae916c43c]: exited"}}
+[debug] [2025-01-24T23:07:09.708Z] [worker-us-central1-api-4eaec163-c5de-4e63-8ebb-760ae916c43c]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-4eaec163-c5de-4e63-8ebb-760ae916c43c]: FINISHED"}}
+[debug] [2025-01-24T23:07:09.756Z] [worker-us-central1-api-b744ba6a-17e8-4eca-af21-fbb6c3aec3e2]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-b744ba6a-17e8-4eca-af21-fbb6c3aec3e2]: exited"}}
+[debug] [2025-01-24T23:07:09.756Z] [worker-us-central1-api-b744ba6a-17e8-4eca-af21-fbb6c3aec3e2]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-b744ba6a-17e8-4eca-af21-fbb6c3aec3e2]: FINISHED"}}
+[debug] [2025-01-24T23:07:09.767Z] [worker-us-central1-api-5a2d736c-8227-4f2b-89df-e63d5a8989c2]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5a2d736c-8227-4f2b-89df-e63d5a8989c2]: exited"}}
+[debug] [2025-01-24T23:07:09.767Z] [worker-us-central1-api-5a2d736c-8227-4f2b-89df-e63d5a8989c2]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5a2d736c-8227-4f2b-89df-e63d5a8989c2]: FINISHED"}}
+[debug] [2025-01-24T23:07:09.790Z] [worker-us-central1-api-c4a16872-0345-40ef-b868-5c93feb52758]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-c4a16872-0345-40ef-b868-5c93feb52758]: exited"}}
+[debug] [2025-01-24T23:07:09.790Z] [worker-us-central1-api-c4a16872-0345-40ef-b868-5c93feb52758]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-c4a16872-0345-40ef-b868-5c93feb52758]: FINISHED"}}
+[debug] [2025-01-24T23:07:09.947Z] [worker-us-central1-api-21da0d15-7808-4051-bb48-4e90e5363310]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-21da0d15-7808-4051-bb48-4e90e5363310]: exited"}}
+[debug] [2025-01-24T23:07:09.948Z] [worker-us-central1-api-21da0d15-7808-4051-bb48-4e90e5363310]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-21da0d15-7808-4051-bb48-4e90e5363310]: FINISHED"}}
+[debug] [2025-01-24T23:07:10.008Z] [worker-us-central1-api-57b0d91d-95e0-4147-aede-eed0e683983e]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-57b0d91d-95e0-4147-aede-eed0e683983e]: exited"}}
+[debug] [2025-01-24T23:07:10.008Z] [worker-us-central1-api-57b0d91d-95e0-4147-aede-eed0e683983e]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-57b0d91d-95e0-4147-aede-eed0e683983e]: FINISHED"}}
+[debug] [2025-01-24T23:07:10.761Z] [worker-us-central1-api-ea9a3dd9-2589-4cc5-b58d-10dd628d54d2]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ea9a3dd9-2589-4cc5-b58d-10dd628d54d2]: exited"}}
+[debug] [2025-01-24T23:07:10.761Z] [worker-us-central1-api-ea9a3dd9-2589-4cc5-b58d-10dd628d54d2]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-ea9a3dd9-2589-4cc5-b58d-10dd628d54d2]: FINISHED"}}
+[debug] [2025-01-24T23:07:16.330Z] [worker-us-central1-api-c3895412-3bbf-4d9f-8d71-a3a4cd7d2732]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-c3895412-3bbf-4d9f-8d71-a3a4cd7d2732]: exited"}}
+[debug] [2025-01-24T23:07:16.331Z] [worker-us-central1-api-c3895412-3bbf-4d9f-8d71-a3a4cd7d2732]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-c3895412-3bbf-4d9f-8d71-a3a4cd7d2732]: FINISHED"}}
+[debug] [2025-01-24T23:07:19.818Z] [worker-us-central1-api-80d52056-e0f3-4a50-984d-7326823d3ff9]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-80d52056-e0f3-4a50-984d-7326823d3ff9]: exited"}}
+[debug] [2025-01-24T23:07:19.818Z] [worker-us-central1-api-80d52056-e0f3-4a50-984d-7326823d3ff9]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-80d52056-e0f3-4a50-984d-7326823d3ff9]: FINISHED"}}
+[debug] [2025-01-24T23:07:20.095Z] Received signal SIGHUP 1
