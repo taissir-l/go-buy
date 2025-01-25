@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import "./Login.css";
+import GoogleIcon from '@mui/icons-material/Google';
 import { Link, useNavigate } from "react-router-dom";
 import { auth } from "./firebase"; // Importing `auth` from your firebase.js file
 import {
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
+  GoogleAuthProvider,
+  signInWithPopup,
 } from "firebase/auth"; // Import necessary functions
 
 function Login() {
@@ -15,7 +18,7 @@ function Login() {
   const signIn = (e) => {
     e.preventDefault();
 
-    // Use the imported `signInWithEmailAndPassword` function
+    // Sign in with email and password
     signInWithEmailAndPassword(auth, email, password)
       .then(() => {
         navigate("/"); // Redirect to home page upon successful sign-in
@@ -26,12 +29,21 @@ function Login() {
   const register = (e) => {
     e.preventDefault();
 
-    // Use the imported `createUserWithEmailAndPassword` function
+    // Register a new user
     createUserWithEmailAndPassword(auth, email, password)
       .then(() => {
         navigate("/"); // Redirect to home page upon successful registration
       })
       .catch((error) => alert(error.message)); // Show error if registration fails
+  };
+
+  const signInWithGoogle = () => {
+    const provider = new GoogleAuthProvider(); // Create Google provider instance
+    signInWithPopup(auth, provider) // Open a popup for Google sign-in
+      .then((result) => {
+        navigate("/"); // Redirect to home page upon successful sign-in
+      })
+      .catch((error) => alert(error.message)); // Show error if sign-in fails
   };
 
   return (
@@ -75,6 +87,14 @@ function Login() {
 
         <button onClick={register} className="login__registerButton">
           Create your Amazon Account
+        </button>
+
+        {/* Google Sign-In Button */}
+        <button
+          onClick={signInWithGoogle}
+          className="login__googleSignInButton"
+        >
+          Sign in with Google <GoogleIcon/>
         </button>
       </div>
     </div>

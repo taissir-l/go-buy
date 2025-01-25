@@ -62,3 +62,27 @@
   font-size: 15px;
   cursor: pointer;
 }
+
+.login__googleSignInButton {
+  background-color: #d9ada9;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.login__googleSignInButton img,
+.login__googleSignInButton svg {
+  margin-left: 8px;
+}
+
+.login__googleSignInButton:hover {
+  background-color: #357ae8;
+}
