@@ -57,7 +57,7 @@ function AppContent() {
   const location = useLocation();
 
   // Define paths where the Header should be displayed
-  const showHeader = ["/", "/checkout", "/payment"].includes(location.pathname);
+  const showHeader = ["/", "/checkout", "/payment","/orders"].includes(location.pathname);
 
   return (
     <div className="app">
