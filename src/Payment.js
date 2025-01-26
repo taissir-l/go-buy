@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import "./Payment.css";
+import "./styles/Payment.css";
 import { useStateValue } from "./StateProvider";
 import CheckoutProduct from "./CheckoutProduct";
 import { Link, useNavigate } from "react-router-dom";
 import { useStripe, useElements, CardElement } from "@stripe/react-stripe-js";
 import CurrencyFormat from "react-currency-format";
 import { getBasketTotal } from "./reducer";
-import axios from "./axios";
+import axios from "./utils/axios";
 import { db } from "./firebase";
 import { doc, setDoc, collection } from "firebase/firestore";
 

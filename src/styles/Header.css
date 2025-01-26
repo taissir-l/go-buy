@@ -1,0 +1,177 @@
+/* Header container */
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #efe2de;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  justify-content: space-between; /* Ensure space between elements */
+  padding: 0 10px; /* Add padding to the sides for spacing */
+}
+
+/* Logo styling */
+.header__logo {
+  width: 150px;
+  object-fit: contain;
+  margin-top: 1px;
+  max-height: 40px; /* Prevent the logo from growing too large */
+}
+
+/* Search bar styling */
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+  margin-right: 20px; /* Ensure space between search and basket */
+}
+
+/* Search input field styling */
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+/* Search icon styling */
+.header__searchIcon {
+  padding: 5px;
+  height: 20px;
+  background-color: #403837;
+  color: #efe2de;
+}
+
+/* Basket styling */
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: #403837;
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+/* Navigation container */
+.header__nav {
+  display: flex;
+  justify-content: flex-start; /* Align nav items to the start */
+  align-items: center; /* Ensure items are centered vertically */
+  margin-left: 10px;
+}
+
+/* Styling for header options */
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #010d00;
+  justify-content: center; /* Ensure the content is vertically centered */
+}
+
+/* Styling for individual options */
+.header__optionOne {
+  font-size: 10px;
+}
+
+.header__optionTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+/* Responsive styles for tablets and smaller screens */
+@media (max-width: 768px) {
+  .header__logo {
+    width: 120px; /* Slightly smaller logo for tablets */
+    margin: 0 10px;
+  }
+
+  .header__search {
+    flex: 1;
+    padding: 5px; /* Reduced padding for search bar on tablets */
+  }
+
+  .header__searchInput {
+    font-size: 12px; /* Slightly smaller font size */
+  }
+
+  .header__searchIcon {
+    padding: 5px;
+    height: 25px;
+  }
+
+  .header__optionOne {
+    font-size: 9px; /* Smaller font size for options */
+  }
+
+  .header__optionTwo {
+    font-size: 12px; /* Adjusted for tablets */
+  }
+
+  .header__nav {
+    flex-direction: row; /* Keep nav items in a row */
+    justify-content: flex-start; /* Ensure nav items align to the left */
+    margin-left: 0; /* Remove left margin on smaller screens */
+  }
+
+  .header__option {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .header__optionBasket {
+    margin-left: auto; /* Push the basket to the far right */
+  }
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 480px) {
+  .header {
+    height: 50px; /* Smaller header on mobile */
+  }
+
+  .header__logo {
+    width: 100px; /* Even smaller logo for mobile */
+    margin: 0 5px;
+  }
+
+  .header__search {
+    flex: 1;
+    padding: 5px;
+    margin-right: 10px; /* Adjust padding and margin */
+  }
+
+  .header__searchInput {
+    font-size: 10px; /* Even smaller font size for mobile */
+  }
+
+  .header__searchIcon {
+    height: 20px;
+    padding: 4px;
+  }
+
+  .header__optionOne {
+    font-size: 8px; /* Smaller font size for mobile */
+  }
+
+  .header__optionTwo {
+    font-size: 10px; /* Adjusted font size */
+  }
+
+  .header__nav {
+    display: flex;
+    flex-direction: row; /* Keep nav items in a row */
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .header__option {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .header__optionBasket {
+    margin-left: auto; /* Push the basket to the far right */
+  }
+}

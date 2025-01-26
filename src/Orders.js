@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './Orders.css';
+import './styles/Orders.css';
 import { db } from './firebase';
 import { useStateValue } from './StateProvider';
 import { collection, query, orderBy, onSnapshot } from 'firebase/firestore'; // Import required Firestore methods

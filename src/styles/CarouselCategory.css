@@ -1,0 +1,57 @@
+/* Main container styling */
+.carousel-category-container {
+  background-color: white;
+  margin: 12px;
+  padding: 12px;
+}
+
+/* Title styling */
+.carousel-title {
+  font-size: 1.5rem; /* 24px */
+  font-weight: 600;
+  padding-bottom: 12px;
+}
+
+@media (max-width: 600px) {
+  .carousel-title {
+    font-size: 1.2rem; /* Adjusted for smaller screens */
+  }
+}
+
+/* Swiper styling */
+.carousel-swiper {
+  width: 100%;
+  padding: 10px 0;
+}
+
+/* Individual slide styling */
+.carousel-slide {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .carousel-slide {
+    flex: 1 1 100%; /* Make each slide take full width on small screens */
+  }
+}
+
+/* Slide image styling */
+.carousel-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.carousel-image:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .carousel-image:hover {
+    transform: scale(1.02); /* Reduce scale effect on small screens */
+  }
+}
