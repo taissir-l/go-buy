@@ -7,7 +7,7 @@ import {
 import Header from "./Header";
 import Home from "./Home";
 import Checkout from "./Checkout";
-import "./App.css";
+import "./styles/App.css";
 import Login from "./Login";
 import { useEffect } from "react";
 import { auth } from "./firebase";
@@ -16,6 +16,9 @@ import Payment from "./Payment";
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 import Orders from "./Orders";
+import SearchResults from "./SearchResults";
+import { BasketProvider } from "./BasketContext"; // Updated to BasketContext
+
 
 const promise = loadStripe("pk_test_51Qkkx4KdLRsFeXSdOgtYG2hJhFnEozw4MlMisT0NSZQCe4JmSVs0ffUWWa6F7qTZilubMhW1iEfK6eQxI9ZEsN8W00iFfhnpef");
 
@@ -57,12 +60,14 @@ function AppContent() {
   const location = useLocation();
 
   // Define paths where the Header should be displayed
-  const showHeader = ["/", "/checkout", "/payment","/orders"].includes(location.pathname);
+  const showHeader = ["/", "/checkout", "/payment","/orders", "/search", "/product"].includes(location.pathname);
 
   return (
-    <div className="app">
+   <BasketProvider>
+     <div className="app">
       {showHeader && <Header />}
       <Routes>
+        <Route path="/search" element={<SearchResults />} />
         <Route path="/Orders" element={<Orders />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/checkout" element={<Checkout />} />
@@ -80,6 +85,7 @@ function AppContent() {
         <Route path="*" element={<div> 💔Page Not Found</div>} />
       </Routes>
     </div>
+   </BasketProvider>
   );
 }
 

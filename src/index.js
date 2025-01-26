@@ -5,6 +5,8 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { StateProvider } from "./StateProvider";
 import reducer, { initialState } from "./reducer";
+import { CarouselCategory, HomePage, Search } from './';
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -21,3 +23,7 @@ root.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 //seviceWorker.unregister();
+export { default as SearchResults } from "./SearchResults";
+export { default as ProductDetails } from "./ProductDetails";
+export { default as ProductBadge } from "./ProductBadge";
+export { default as ProductRatings } from "./ProductRatings";

@@ -1,0 +1,51 @@
+/* Ratings container styling */
+.ratings-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+  justify-content: center; /* Center items */
+}
+
+/* Star icon styling */
+.star {
+  color: #F1B61F;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+/* Filled star styling */
+.star.filled {
+  color: #F1B61F; /* Filled star color */
+}
+
+/* Rating text styling */
+.rating-text {
+  margin-left: 10px;
+  color: #1a73e8; /* Color for the ratings text */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .star {
+    font-size: 16px; /* Smaller stars on mobile */
+    margin-right: 3px; /* Reduced spacing between stars */
+  }
+
+  .rating-text {
+    font-size: 14px; /* Smaller text for ratings on mobile */
+    margin-left: 5px; /* Reduced space between stars and rating text */
+  }
+}
+
+/* Media query for very small screens (e.g., portrait mobile) */
+@media (max-width: 400px) {
+  .ratings-container {
+    flex-direction: column; /* Stack the stars and text vertically on very small screens */
+    align-items: center; /* Center items */
+  }
+
+  .rating-text {
+    margin-left: 0; /* Remove left margin for small screens */
+    margin-top: 5px; /* Add space between stars and text */
+  }
+}

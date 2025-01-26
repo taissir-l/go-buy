@@ -1,0 +1,85 @@
+/* Container for the entire search bar */
+.search-container {
+    width: 100%;
+    position:relative;
+  }
+  
+  /* Search bar styling */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: #d3305b; /* Amazon Clone Yellow */
+    border-radius: 8px;
+  }
+  
+  /* Dropdown for categories */
+  .search-category {
+    padding: 8px;
+    background-color: #d3305b; 
+    color: black;
+    border: 1px solid  #d3305b;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 8px 0 0 8px;
+    flex-shrink: 0;
+  }
+  
+  /* Input field */
+  .search-input {
+    flex-grow: 1;
+    padding: 0 8px;
+    height: 100%;
+    border: none;
+    border-radius: 0;
+    font-size: 14px;
+    color: black;
+    outline: none;
+  }
+  
+  /* Search button */
+  .search-button {
+    width: 45px;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-button:hover {
+    background-color: #d3305b; /* Change background color on hover */
+    transform: scale(1);
+  }
+  /* Search icon */
+  .search-icon {
+    height: 20px;
+    filter: brightness(0.3);
+  }
+  
+  .search-icon:hover {
+    transform: scale(1.2);
+  }
+
+  /* Suggestions dropdown */
+  .suggestions-list {
+    position: absolute;
+    top: 45px;
+    background-color: rgb(235, 221, 228);
+    border: 1px solid rgb(237, 177, 205);
+    z-index: 40;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Individual suggestion */
+  .suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .suggestion-item:hover {
+    background-color: #f08a8a;
+  }
+  

@@ -1,0 +1,80 @@
+/* Container for product details */
+.product-details-container {
+  margin-bottom: 8px;
+}
+
+/* Title styling */
+.product-title {
+  font-size: 1.25rem; /* 20px */
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+/* Brand styling */
+.product-brand {
+  font-size: 0.875rem; /* 14px */
+  margin-bottom: 4px;
+}
+
+.product-brand-name {
+  color: #3b82f6; /* Tailwind blue-500 */
+}
+
+/* Ratings section */
+.product-ratings {
+  font-size: 0.875rem; /* 14px */
+  margin-bottom: 4px;
+}
+
+/* Product attribute */
+.product-attribute {
+  font-size: 0.75rem; /* 12px */
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .product-title {
+    font-size: 1.125rem; /* 18px for tablet and smaller screens */
+  }
+
+  .product-brand {
+    font-size: 0.8125rem; /* 13px for tablet and smaller screens */
+  }
+
+  .product-ratings {
+    font-size: 0.8125rem; /* 13px for tablet and smaller screens */
+  }
+
+  .product-attribute {
+    font-size: 0.6875rem; /* 11px for tablet and smaller screens */
+  }
+
+  .product-details-container {
+    margin-bottom: 12px; /* Increase bottom margin for better spacing on tablets */
+  }
+}
+
+/* Media query for very small screens (e.g., portrait mobile) */
+@media (max-width: 480px) {
+  .product-title {
+    font-size: 1rem; /* 16px for mobile screens */
+  }
+
+  .product-brand {
+    font-size: 0.75rem; /* 12px for mobile screens */
+  }
+
+  .product-ratings {
+    font-size: 0.75rem; /* 12px for mobile screens */
+  }
+
+  .product-attribute {
+    font-size: 0.625rem; /* 10px for mobile screens */
+  }
+
+  .product-details-container {
+    margin-bottom: 16px; /* Add more space between sections on mobile */
+  }
+}

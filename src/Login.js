@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Login.css";
+import "./styles/Login.css";
 import GoogleIcon from '@mui/icons-material/Google';
 import { Link, useNavigate } from "react-router-dom";
 import { auth } from "./firebase"; // Importing `auth` from your firebase.js file

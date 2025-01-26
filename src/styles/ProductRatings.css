@@ -1,0 +1,23 @@
+/* Container for the rating stars and text */
+.ratings-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Common star styles */
+  .star {
+    stroke: #F1B61F;
+    height: 20px;
+  }
+  
+  /* Styles for filled stars */
+  .star.filled {
+    fill: #F1B61F;
+  }
+  
+  /* Text for the number of ratings */
+  .rating-text {
+    margin-left: 0.75rem; /* ml-3 */
+    color: #3B82F6; /* text-blue-500 */
+  }
+  
